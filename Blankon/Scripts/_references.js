@@ -2,6 +2,7 @@
 /// <reference path="../app/app.js" />
 /// <reference path="../app/controllers/indexctrl.js" />
 /// <reference path="../app/routes/mainroute.js" />
+/// <reference path="../app/services/servicebase.js" />
 /// <reference path="angular.js" />
 /// <reference path="angular-animate.js" />
 /// <reference path="angular-aria.js" />

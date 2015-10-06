@@ -1,2 +1,2 @@
 ﻿"use strict";
-var ajsApp = angular.module('ajsApp', ['mainRoute']);
+angular.module('ajsApp', ['mainRoute']);

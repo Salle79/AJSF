@@ -1,4 +1,6 @@
 ﻿"use distinct";
 angular.module('ajsApp')
-.controller('testCtrl', function ($cope) {
+.controller('testCtrl', function ($scope, $routeParams) {
+    $scope.test = "hello";
+       
 });
