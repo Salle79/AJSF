@@ -1,26 +1,22 @@
 ﻿'use strict';
-angular.module('mainRoute', ['ngRoute', 'serviceBase'])
+angular.module('mainRoute', ['ngRoute', 'service'])
 
 .config(['$routeProvider',
   function ($routeProvider) {
+      var loginPage = '/newValue';
       $routeProvider
           .when('/phones', {
-            templateUrl: 'partials/phone-list.html',
-            controller: 'PhoneListCtrl',
+            templateUrl: 'app/views/customer.html',
+            controller: 'customerCtrl',
             resolve: {
                 permission: function (userService, $route) {
-                    return authorizationService.permissionCheck([roles.user]);
+                    return userService.authorize(loginPage);
                 },
             }
-
         })
           .otherwise({
             templateUrl: 'app/views/index.html',
             controller: 'testCtrl',
-            resolve: {
-                permission: function (userService, $route) {
-                    return userService.authorize();
-                },
-            }
+           
         });
   }]);
