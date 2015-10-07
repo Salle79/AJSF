@@ -1,5 +1,5 @@
 ﻿'use strict';
-angular.module('mainRoute', ['ngRoute', 'service'])
+angular.module('mainRoute', ['ngRoute', 'authenitcationService'])
 
 .config(['$routeProvider',
   function ($routeProvider) {
