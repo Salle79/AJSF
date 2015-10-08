@@ -2,6 +2,7 @@
 /// <reference path="../app/app.js" />
 /// <reference path="../app/controllers/customerctrl.js" />
 /// <reference path="../app/controllers/indexctrl.js" />
+/// <reference path="../app/models/customermodel.js" />
 /// <reference path="../app/routes/mainroute.js" />
 /// <reference path="../app/services/authenitcationservice.js" />
 /// <reference path="../app/services/dataservice.js" />
