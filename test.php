@@ -1,9 +1,8 @@
-REMOTE
-LOCAL
+3243243253
+uiui3
 fhfhgfhhg
 dfggfdg
-dfdsf
+öflgdöfgödflgö
+uiuyiuyi
 fgdfgd
 hgghgfh
-dsffsfdfdsfsfdfdf
-Remote
