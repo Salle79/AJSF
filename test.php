@@ -1,1 +1,1 @@
-THis is a merge between two nodes
+This is another merge, from LOCAL
